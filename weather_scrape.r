@@ -11,14 +11,9 @@ if (!requireNamespace("stringi", quietly = TRUE)) {
   install.packages("stringi")
 }
 
-if (!requireNamespace("dotenv", quietly = TRUE)) {
-  install.packages("dotenv")
-}
-
 # Load the necessary packages
 library(rvest)
 library(dplyr)
-library(dotenv)
 library(mongolite)
 
 # URL of the weather page for indonesia
@@ -82,11 +77,6 @@ weather_data <- data.frame(
   Wind = wind,
   stringsAsFactors = FALSE
 )
-
-
-# Load the .env file
-dotenv::load_dot_env(".env")
-
 # MONGODB
 message('Input Data to MongoDB Atlas')
 
