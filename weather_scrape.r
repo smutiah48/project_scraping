@@ -4,6 +4,9 @@
 if (!requireNamespace("rvest", quietly = TRUE)) {
   install.packages("rvest")
 }
+if (!requireNamespace("mongolite", quietly = TRUE)) {
+  install.packages("mongolite")
+}
 if (!requireNamespace("dplyr", quietly = TRUE)) {
   install.packages("dplyr")
 }
