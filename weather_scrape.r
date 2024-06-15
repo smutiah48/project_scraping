@@ -66,6 +66,9 @@ wind <- webpage %>%
     html_text() %>%
     .[1]  # Append wind with the second and third elements
 
+#clean koma data
+location <- gsub(",","",location)
+day <- gsub(",","",day)
 # Print the scraped data
 cat("Location:", location, "\n")
 cat("Day:", day, "\n")
