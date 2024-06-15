@@ -46,6 +46,11 @@ temperature <- webpage %>%
   html_text() %>%
   .[1]
 
+weather <- webpage %>%
+  html_nodes(".DetailsSummary--extendedData--307Ax") %>%  # Update this selector
+  html_text() %>%
+  .[1]
+
 description <- webpage %>%
   html_nodes(".HourlyForecast--insightText--E3rgG") %>%  # Update this selector
   html_text() %>%
@@ -66,6 +71,7 @@ cat("Location:", location, "\n")
 cat("Day:", day, "\n")
 cat("Time:", time, "\n")
 cat("Temperature:", temperature, "\n")
+cat("Weather:", weather, "\n")
 cat("Description:", description, "\n")
 cat("Humidity:", humidity, "\n")
 cat("Wind:", wind, "\n")
@@ -75,6 +81,7 @@ weather_data <- data.frame(
   Day = day,
   Time = time,
   Temperature = temperature,
+  Weather = weather,
   Description = description,
   Humidity = humidity,
   Wind = wind,
