@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     
 jobs:
-  scimago-scrape:
+  weather-scrape:
     runs-on: macOS-latest
     env:
       ATLAS_URL: ${{ secrets.ATLAS_URL }}
