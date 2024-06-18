@@ -50,8 +50,8 @@ temperature <- webpage %>%
   html_text() %>%
   .[1]
 
-description <- webpage %>%
-  html_nodes(".HourlyForecast--insightText--E3rgG") %>%  # Update this selector
+weather <- webpage %>%
+  html_nodes(".DetailsSummary--extendedData--307Ax") %>%  # Update this selector
   html_text() %>%
   .[1]
 
