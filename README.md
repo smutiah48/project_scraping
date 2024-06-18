@@ -38,12 +38,13 @@ The Weather Channel adalah salah satu platform media yang dikenal luas sebagai s
 ## 📝 Deskripsi Data
   <div align="justify">
 The Weather Channel menyediakan informasi cuaca untuk banyak negara di seluruh dunia, termasuk tetapi tidak terbatas pada:
-- Amerika Serikat: Menyediakan informasi cuaca terperinci untuk setiap negara bagian, termasuk prakiraan harian, suhu, kelembapan, dan kondisi cuaca mendetail seperti hujan, salju, atau badai.
-- Eropa: Meliputi negara-negara di Eropa dengan prakiraan cuaca yang disesuaikan untuk setiap negara atau wilayahnya.
-- Asia: Informasi cuaca untuk negara-negara Asia, dari Timur Tengah hingga Asia Tenggara, yang mencakup prakiraan suhu, kelembapan, dan kondisi cuaca lainnya.
-- Amerika Selatan: Prakiraan cuaca untuk negara-negara di Amerika Selatan, yang memperhitungkan variabilitas iklim di kawasan ini.
-- Afrika: Informasi cuaca untuk negara-negara di Afrika, dengan memperhatikan kondisi iklim yang bervariasi dari wilayah gurun hingga daerah hutan hujan.
-- Oseania: Meliputi negara-negara di Australia, Selandia Baru, dan kepulauan lain di Samudra Pasifik, dengan memperhitungkan cuaca laut dan fenomena iklim lainnya.
+    - Amerika Serikat: Menyediakan informasi cuaca terperinci untuk setiap negara bagian, termasuk prakiraan harian, suhu, kelembapan, dan kondisi cuaca mendetail seperti hujan, salju, atau badai.
+    - Eropa: Meliputi negara-negara di Eropa dengan prakiraan cuaca yang disesuaikan untuk setiap negara atau wilayahnya.
+    - Asia: Informasi cuaca untuk negara-negara Asia, dari Timur Tengah hingga Asia Tenggara, yang mencakup prakiraan suhu, kelembapan, dan kondisi cuaca lainnya.
+    - Amerika Selatan: Prakiraan cuaca untuk negara-negara di Amerika Selatan, yang memperhitungkan variabilitas iklim di kawasan ini.
+
+    - Afrika: Informasi cuaca untuk negara-negara di Afrika, dengan memperhatikan kondisi iklim yang bervariasi dari wilayah gurun hingga daerah hutan hujan.
+    - Oseania: Meliputi negara-negara di Australia, Selandia Baru, dan kepulauan lain di Samudra Pasifik, dengan memperhitungkan cuaca laut dan fenomena iklim lainnya.
 </div>
 
 ## 🎯 Tujuan
