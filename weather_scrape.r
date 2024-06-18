@@ -55,20 +55,21 @@ weather <- webpage %>%
   html_text() %>%
   .[1]
 
+
 description <- webpage %>%
-  html_nodes(".HourlyForecast--insightText--E3rgG") %>% # Update this selector
+  html_nodes(".HourlyForecast--insightText--E3rgG") %>%  # Update this selector
   html_text() %>%
   .[1]
 
 humidity <- webpage %>%
-  html_nodes(".DetailsTable--value--2YD0-") %>% # Update this selector
+  html_nodes(".DetailsTable--value--2YD0-") %>%  # Update this selector
   html_text() %>%
   .[1]
 
 wind <- webpage %>%
-  html_nodes(".Wind--windWrapper--3Ly7c") %>% # Update this selector
-  html_text() %>%
-  .[1] # Append wind with the second and third elements
+    html_nodes(".Wind--windWrapper--3Ly7c") %>%  # Update this selector
+    html_text() %>%
+    .[1]  # Append wind with the second and third elements
 
 # Clean the data
 location <- gsub(",", "", location)
@@ -94,6 +95,7 @@ weather_data <- data.frame(
   Day = day,
   Time = time,
   Temperature = temperature,
+  Weather = weather,
   Description = description,
   Humidity = humidity,
   Wind = wind,
