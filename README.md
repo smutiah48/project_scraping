@@ -25,9 +25,9 @@ Tugas Praktikum UAS MDS
 •
 [Dokumentasi](#dokumentasi) 📚
 •
-[Visualisasi Data](#visualisasi-data) 📊
+[Visualisasi](#visualisasi-data) 📊
 •
-[Menu Developer](#menu-developer) 👩‍💻
+[Developer](#menu-developer) 👩‍💻
 </div>
 
 ## 🌍 Tentang
