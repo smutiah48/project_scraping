@@ -6,7 +6,7 @@ Tugas Praktikum UAS MDS
 Tugas Praktikum UAS MDS
 
 <p align="center">
-  <img width="600" height="343" src="https://github.com/smutiah48/project_scraping/blob/main/Weather.PNG">
+  <img width="900" height="343" src="https://github.com/smutiah48/project_scraping/blob/main/Weather.PNG">
 </p>
 
 <div align="center">
