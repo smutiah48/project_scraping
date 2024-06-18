@@ -51,6 +51,11 @@ temperature <- webpage %>%
   .[1]
 
 description <- webpage %>%
+  html_nodes(".HourlyForecast--insightText--E3rgG") %>%  # Update this selector
+  html_text() %>%
+  .[1]
+
+description <- webpage %>%
   html_nodes(".HourlyForecast--insightText--E3rgG") %>% # Update this selector
   html_text() %>%
   .[1]
@@ -69,6 +74,7 @@ wind <- webpage %>%
 location <- gsub(",", "", location)
 day <- gsub(",", "", day)
 temperature <- gsub(",", "", temperature)
+weather <- gsub(",", "", weather)
 description <- gsub(",", "", description)
 humidity <- gsub(",", "", humidity)
 wind <- gsub(",", "", wind)
@@ -78,6 +84,7 @@ cat("Location:", location, "\n")
 cat("Day:", day, "\n")
 cat("Time:", time, "\n")
 cat("Temperature:", temperature, "\n")
+cat("Weather:", weather, "\n")
 cat("Description:", description, "\n")
 cat("Humidity:", humidity, "\n")
 cat("Wind:", wind, "\n")
