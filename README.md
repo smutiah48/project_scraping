@@ -98,7 +98,7 @@ Berikut adalah contoh data cuaca yang telah di-scrape dan disimpan ke dalam Mong
 ### 📊 Visualisasi Data
 Untuk visualisasi data cuaca yang telah diambil dari The Weather Channel, Anda dapat mengakses informasi lebih lanjut melalui:
 
-- [Rpubs - Analisis Cuaca](http://rpubs.com/smutiah/Scraping-dan-Analisis-Data-Cuaca)
+- [Rpubs - Analisis Cuaca](https://rpubs.com/smutiah/Scraping-dan-Analisis-Data-Cuaca)
 - [Presentasi PowerPoint - Analisis Cuaca](https://example.com/link_ppt)
 
 ## 👨‍💻 Developer
